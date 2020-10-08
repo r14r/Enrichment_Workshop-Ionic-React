@@ -1,0 +1,7 @@
+{
+  "name": "cs-demo-offline-storage-react",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

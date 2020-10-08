@@ -1,0 +1,24 @@
+div.dogs-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.dogs-container div.dogs-column {
+    display: block;
+    flex-grow: 1;
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+deckgo-lazy-img {
+    --deckgo-lazy-img-width: 100%;
+    --deckgo-lazy-img-height: auto;
+    --deckgo-lazy-img-display: block;
+    --deckgo-lazy-img-object-fit: cover;
+}
+
+ion-card.disabled {
+    pointer-events: none;
+    cursor: default;
+}

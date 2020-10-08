@@ -1,0 +1,69 @@
+.hospitals {
+  height: 100%;
+  padding: 0 1rem;
+  line-height: 1.3;
+  letter-spacing: 0.2px;
+
+  .hospitals-page-title {
+    font-weight: 600;
+    font-size: x-large;
+    border-bottom: 1px solid #edecec;
+    padding-bottom: 1.2rem;
+  }
+
+  .hospitals-page-subtitle {
+    display: inline-block;
+    padding: 1.2rem 0;
+    font-size: large;
+  }
+
+  @media only screen and (max-width: 320px) {
+    h3,
+    .page-subtitle {
+      margin: 0;
+    }
+  }
+}
+
+.hospital {
+  background: #2676ff;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  .hospital-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 1rem;
+    .hospital-name {
+      display: block;
+      padding-bottom: 0.3rem;
+      font-weight: 600;
+      font-size: large;
+      color: white;
+    }
+    .hospital-tel {
+      display: block;
+      font-weight: 600;
+      font-size: medium;
+      color: white;
+    }
+  }
+  .hospital-location {
+    border-left: 1px solid #ffffff;
+    button {
+      padding: 1rem;
+    }
+    .location-icon {
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+}

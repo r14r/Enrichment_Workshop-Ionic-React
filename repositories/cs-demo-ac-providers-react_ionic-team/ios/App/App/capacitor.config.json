@@ -1,0 +1,8 @@
+{
+  "appId": "com.ionic.acproviders.react",
+  "appName": "cs-demo-ac-providers-react",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

@@ -1,0 +1,14 @@
+.error-message {
+  margin-top: 32px;
+  color: var(--ion-color-danger);
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.unlock-app {
+  margin-top: 3em;
+  font-size: xx-large;
+}

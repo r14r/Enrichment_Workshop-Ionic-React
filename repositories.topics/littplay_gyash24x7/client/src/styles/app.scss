@@ -1,0 +1,410 @@
+@font-face {
+	font-family: "montserrat-bold";
+	src: local("montserrat-bold"),
+		url("../assets/fonts/montserrat-bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "montserrat";
+	src: local("montserrat"),
+		url("../assets/fonts/montserrat-regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "montserrat-light";
+	src: local("montserrat-light"),
+		url("../assets/fonts/montserrat-light.ttf") format("truetype");
+}
+
+.light {
+	.game-card,
+	.game-play-container {
+		background-color: #eeeeee;
+	}
+}
+
+.dark {
+	.game-card {
+		background-color: #666;
+	}
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-family: "montserrat" !important;
+
+	&.new-game {
+		width: 80%;
+	}
+}
+
+.logo-icon {
+	max-width: 200px;
+}
+
+.form-wrapper {
+	width: 90%;
+	max-width: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	.heading {
+		font-size: 30px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-family: "montserrat-light";
+	}
+}
+
+.input-list {
+	width: 100%;
+}
+
+.app-input {
+	text-align: center;
+	font-family: "montserrat";
+}
+
+.app-button {
+	height: 50px;
+	font-family: "montserrat-bold";
+	text-transform: uppercase;
+	width: 100%;
+
+	&.small {
+		height: 40px;
+	}
+}
+
+.login-bottom-links {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+	font-family: "montserrat";
+}
+
+.error-msg-container {
+	width: 100%;
+	padding: 15px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.error-msg {
+		margin-top: 10px;
+		text-transform: uppercase;
+		font-size: 12px;
+		font-family: "montserrat-bold";
+	}
+}
+
+.user-avatar {
+	width: 150px;
+	cursor: pointer;
+}
+
+.menu-profile-container {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+
+	.user-avatar {
+		width: 90px;
+	}
+}
+
+.user-name {
+	margin-top: 15px;
+	font-size: 20px;
+	font-family: "montserrat-bold";
+	text-transform: uppercase;
+}
+
+.montserrat {
+	font-family: "montserrat";
+}
+
+.montserrat-bold {
+	font-family: "montserrat-bold";
+}
+
+.game-play-card {
+	flex: 1;
+	font-family: "montserrat";
+	text-align: center;
+	box-shadow: unset;
+
+	.subtitle {
+		color: #000 !important;
+		margin-bottom: 5px;
+		font-family: "montserrat-bold";
+	}
+
+	&.banner {
+		display: flex;
+		flex-direction: column;
+
+		.banner-content {
+			display: flex;
+			align-items: center;
+			flex: 1;
+			margin-top: 40px;
+		}
+
+		.banner-header {
+			position: absolute;
+			width: 100%;
+		}
+	}
+}
+
+.game-code,
+.game-score {
+	font-size: 36px;
+	font-family: "montserrat-bold";
+}
+
+.card-subtitle {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: "montserrat";
+}
+
+.app-menu-list {
+	cursor: pointer;
+}
+
+.logout-btn {
+	width: 50px;
+	height: 50px !important;
+}
+
+.app-menu-logout {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	cursor: pointer;
+}
+
+.item-text {
+	padding-left: 20px;
+	font-family: "montserrat";
+	text-transform: uppercase;
+}
+
+.game-play-container {
+	padding-top: 56px;
+	min-height: calc(100% - 10px);
+}
+
+.players-wrapper {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: -10px;
+}
+
+.player-icon {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-transform: uppercase;
+	text-overflow: ellipsis;
+
+	.user-avatar {
+		padding: 10px;
+		width: 100px;
+	}
+}
+
+.game-description-row {
+	justify-content: space-between;
+	align-items: center;
+	text-align: left;
+}
+
+.game-cards-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.team-score-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.moves-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.user-container {
+	display: flex;
+	align-items: center;
+	padding: 5px 0px;
+	margin: 5px 0px;
+
+	.user-details {
+		margin-left: 15px;
+	}
+}
+
+.dark-mode-toggle {
+	margin: 0px 10px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-family: "montserrat" !important;
+
+	& > ion-card.banner {
+		min-width: 200px;
+		flex: 1;
+
+		ion-card-title {
+			width: 100%;
+		}
+	}
+
+	& > div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+		padding: 20px;
+		cursor: pointer;
+		border: 2px solid;
+		border-color: transparent;
+
+		&.select-overlay {
+			background-color: #0052cc66;
+		}
+
+		.user-details {
+			margin-top: 10px;
+		}
+
+		&:hover {
+			border-color: unset;
+		}
+	}
+
+	& > div.game-card {
+		flex-direction: row;
+		justify-content: space-evenly;
+		padding: 10px;
+		margin: 5px;
+		flex: 1;
+		min-width: 120px;
+		max-width: 150px;
+
+		.card-suit {
+			width: 50px;
+			height: auto;
+			margin: 0px 5px;
+		}
+
+		.card-rank {
+			font-family: "montserrat-bold";
+			font-size: 48px;
+			margin: 0px 5px;
+		}
+	}
+
+	& > div.group-avatar {
+		padding: 5px;
+		margin: 0px;
+		font-size: 9px;
+		text-transform: uppercase;
+		font-family: "montserrat-bold";
+
+		img {
+			width: 50px;
+			height: auto;
+		}
+
+		&:hover {
+			border-color: transparent;
+		}
+	}
+}
+
+.app-modal-container {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #141414cc;
+	z-index: 100;
+
+	.app-modal {
+		width: 100%;
+		max-width: 500px;
+		max-height: calc(100% - 150px);
+		align-items: center;
+		font-family: "montserrat";
+		overflow-y: scroll;
+		text-align: center;
+
+		.modal-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			font-family: "montserrat-bold";
+			position: absolute;
+			top: 0;
+			z-index: 101;
+
+			.modal-close-icon {
+				font-size: 24px;
+				cursor: pointer;
+			}
+		}
+
+		.modal-content {
+			padding: 15px;
+			z-index: 100;
+			margin-top: 70px;
+		}
+	}
+}
+
+.avatar-change-label {
+	text-transform: uppercase;
+	font-family: "montserrat-bold";
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.avatar-change-modal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	& > div {
+		display: flex;
+		width: 100%;
+
+		.app-button {
+			flex: 1;
+		}
+	}
+}

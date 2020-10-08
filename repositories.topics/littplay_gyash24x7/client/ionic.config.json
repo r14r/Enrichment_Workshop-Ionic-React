@@ -1,0 +1,8 @@
+{
+	"name": "Literature",
+	"integrations": {
+		"capacitor": {}
+	},
+	"type": "react",
+	"id": "995af075"
+}

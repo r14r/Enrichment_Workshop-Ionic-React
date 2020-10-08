@@ -1,0 +1,16 @@
+{
+  "appId": "help.mv",
+  "appName": "help",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "GoogleAuth": {
+      "scopes": [
+        "profile",
+        "email"
+      ],
+      "serverClientId": "890430186033-4vhvpqbsumujm39dq5js9ihsm32rc22l.apps.googleusercontent.com"
+    }
+  }
+}

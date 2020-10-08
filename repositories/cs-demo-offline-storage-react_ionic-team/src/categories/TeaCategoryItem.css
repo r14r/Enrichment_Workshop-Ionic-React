@@ -1,0 +1,16 @@
+.tea-category-item .name {
+  font-weight: bold;
+}
+
+.tea-category-item .description {
+  white-space: normal;
+}
+
+.skeleton-category-item .line {
+  border-radius: 3px;
+  line-height: 1em;
+}
+
+.skeleton-category-item .name {
+  width: 50%;
+}

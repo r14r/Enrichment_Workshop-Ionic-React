@@ -1,0 +1,19 @@
+ion-content {
+  --background: #3b43be;
+}
+
+ion-card {
+  --background: white !important;
+}
+
+.bitcoin__header {
+  padding-top: 20px;
+  background-color: #29308f;
+  height: 180px;
+}
+
+.bitcoin__desclaimer {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 6px;
+}

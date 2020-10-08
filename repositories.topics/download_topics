@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# wget "https://github.com/topics/ionic-react?o=desc&s=start"   -O reps_by_most_stars
+# wget "https://github.com/topics/ionic-react?o=desc&s=updated" -O reps_by_recently_updates
+
+cat reps_by*								|\
+grep "go to repository" 					|\
+sed '1,$s/^.*href="//'						|\
+grep text-bold								|\
+cut -d'"' -f1								|\
+sort										|\
+uniq										|\
+while read REP
+do 
+	echo git_clone  https://github.com$REP
+done
+
+
+
+

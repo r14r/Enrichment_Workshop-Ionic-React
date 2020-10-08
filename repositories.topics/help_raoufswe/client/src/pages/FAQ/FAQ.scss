@@ -1,0 +1,39 @@
+.faq {
+  padding: 0 1rem;
+  .faq-page-title {
+    font-weight: 600;
+    font-size: x-large;
+    padding-bottom: 1rem;
+  }
+}
+
+.question {
+  border-bottom: 1px solid #edecec;
+  margin-bottom: 1rem;
+  letter-spacing: 0.2px;
+  text-align: left;
+
+  .question-title {
+    display: block;
+    font-weight: 600;
+    font-size: large;
+    padding-bottom: 1rem;
+  }
+
+  .question-subtitle,
+  .question-content {
+    display: block;
+    font-weight: normal;
+    font-size: medium;
+    padding-bottom: 1rem;
+  }
+
+  .question-content {
+    line-height: 1.4;
+    transition: height 6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  p {
+    display: none;
+  }
+}

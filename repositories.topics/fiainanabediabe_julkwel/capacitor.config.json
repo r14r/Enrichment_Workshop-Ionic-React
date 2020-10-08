@@ -1,0 +1,9 @@
+{
+  "appId": "com.fiainanabdb.io",
+  "appName": "Fiainanabdb",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {},
+  "linuxAndroidStudioPath": "/opt/android-studio/bin/studio.sh"
+}

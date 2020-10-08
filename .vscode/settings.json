@@ -1,0 +1,32 @@
+{
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"prettier.tabWidth": 8,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+
+	"files.exclude": {
+		"Enrichment.code-workspace": true,
+
+		"**/.env.d": true,
+		"**/.env": true,
+		"**/node_modules": true,
+		"**/package-lock.json": true,
+		"**/yarn.lock": true,
+
+		"**/.github": true,
+		"**/.gitignore": true,
+
+		"**/ios": true,
+
+		"**/android": true,
+		"**/.gradle": true,
+		"**/*.test.tsx": true,
+		"**/.idea": true,
+		"**/.idea.*": true,
+		"**/.ionic": true,
+		"**/.ionic.*": true,
+		"**/capacitor.config.json": true,
+		"**/ionic.config.json": true
+	}
+}

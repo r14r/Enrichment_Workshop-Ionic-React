@@ -1,0 +1,7 @@
+{
+  "name": "wooof",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">KapturaLumina</string>
+    <string name="title_activity_main">KapturaLumina</string>
+    <string name="package_name">dev.sznm.kapturalumina</string>
+    <string name="custom_url_scheme">dev.sznm.kapturalumina</string>
+</resources>

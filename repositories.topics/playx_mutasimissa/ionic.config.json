@@ -1,0 +1,7 @@
+{
+  "name": "playx-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

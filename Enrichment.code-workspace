@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Enrichment_Workshop-Ionic-React_Day-01"
+		},
+		{
+			"path": "../Enrichment_Workshop-Ionic-React_Day-02"
+		},
+		{
+			"path": "../Enrichment_Workshop-Ionic-React_Day-03"
+		},
+		{
+			"path": "../Enrichment_Workshop-Ionic-React_Day-04"
+		}
+	],
+	"settings": {}
+}
